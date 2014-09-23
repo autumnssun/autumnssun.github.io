@@ -3,14 +3,4 @@
     <div class="btn btn-navbar" >
         <i class="fa"></i><a href="#/dining">Back</a>
     </div>
-</div> --> <div content-for="title"> <span>Stores around you</span> </div> <div content-for="rightMenuAction"> <div class="btn btn-navbar"> <i class="fa"></i> </div> </div> <!--End of overiding menu bar-->  <div class="map_warp"> <google-map center="map.center" control="map.control" zoom="map.zoom" options="map.options" draggable="true" hm-rotate="myRot($event)"> <markers models="markers" icon="thumb" coords="'self'" click="'click()'" options="'options'" events="markersEvents" islabel="{labelContent:food.name}"></markers> </google-map> </div> <div class="map_list"> <div class="scrollable"> <div class="scrollable-content"> <ul class="media-list"> <li class="media" ng-repeat="food in markers"> <a href="#/store/{{food.objectId}}"> <div class="pull-left thumb"> <img class="media-object" ng-src="{{food.thumb}}"> </div> <div class="media-body"> <h4 class="media-heading">{{food.name}} <span class="pull-right">{{food.readyTime.iso| date:"h:mma"}}</span> </h4> </div> </a> </li> </ul> <!-- ul class="list-group">
-                <div class="list-group-item" ng-repeat='food in markers'>
-                    <div class="thumb pull-left">
-                        <img ng-src={{food.icon}}></img>
-                    </div>
-                    <a href="#/store/{{food.objectId}}">
-
-                        <h4 class="">{{food.name}}</h4>
-                    </a>
-                </div>
-                </ul>--> </div> </div> </div> 
+</div> --> <div content-for="title"> <span>Stores around you</span> </div> <div content-for="rightMenuAction"> <div class="btn btn-navbar"> <i class="fa"></i> </div> </div> <!--End of overiding menu bar-->  <div class="map_warp"> <google-map center="map.center" control="map.control" zoom="map.zoom" options="map.options" draggable="true" hm-rotate="myRot($event)"> <markers models="markers" icon="thumb" coords="'self'" click="'click()'" options="'options'" events="markersEvents" islabel="{labelContent:food.name}"></markers> </google-map> </div> <div class="map_list"> <div class="scrollable"> <div class="scrollable-content"> <ul class="media-list"> <li class="media" ng-repeat="food in markers"> <a class="pull-left" href="#/store/{{food.objectId}}"> <div class="thumb pull-left"> <img ng-src="{{food.thumb}}" class="img-rounded img-responsive"> </div> <div class="media-body"> <h4 class="media-heading">{{food.name}}</h4> <timer end-time="food.readyTime.iso"> <span ng-show="days">{{days}} days,</span> <span ng-show="hours">{{hours}}hrs : </span> <span ng-show="minutes">{{minutes}}min</span> <span ng-hide="minutes">Food have expired</span> </timer> </div> </a> <button type="button" ng-click="zoomToFood(food.latitude,food.longitude)" class="btn btn-default pull-right"> <span class="glyphicon glyphicon-zoom-in"></span> </button> </li> </ul> </div> </div> </div> 
