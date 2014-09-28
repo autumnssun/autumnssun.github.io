@@ -9,7 +9,7 @@
                 <input type="number" ng-model="food.price" class="form-control" ng-required>
                 <br>
                 <label>Time</label>
-                <datetimepicker data-ng-model="data.date" ng-required></datetimepicker>
+                <datetimepicker data-ng-model="data.date" on-set-time="onTimeSet" ng-required></datetimepicker>
                 <!--  <div class="form-group">
                     <label class="control-label"><i class="fa fa-calendar"></i> Datetime picker</label>
                     <br>
