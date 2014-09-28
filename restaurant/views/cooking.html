@@ -2,15 +2,37 @@
     <div class="btn btn-navbar" >
         <i class="fa"></i><a href="#/dining">Back</a>
     </div>
-</div> --> <div class="scrollable"> <div class="scrollable-content"> <div content-for="title"> <span>Sell your food</span> </div> <div class="login_module"> <h1>Share your food</h1> <form novalidate class="simple-form"> <label>What are you cooking?</label> <br> <input type="text" ng-model="food.name" class="form-control"> <br> <label>Cusine:</label> <br> <input type="text" ng-model="food.cusine" class="form-control"> <br> <label>Price pershare:</label> <br> <input type="number" ng-model="food.price" class="form-control"> <br> <label>Time</label> <datetimepicker data-ng-model="date" on-set-time="onTimeSet"> <!-- <div class="dropdown">
-                    <a class="dropdown-toggle" id="dropdown2" role="button" data-toggle="dropdown" data-target="#" href="#">
-                        <div class="input-group">
-                            <input type="text" class="form-control" data-ng-model="data.dateDropDownInput">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i>
-                            </span>
-                        </div>
-                    </a>
-                    <ul class="dropdown-menu" role="menu" on-set-time="onTimeSet" aria-labelledby="dLabel">
-                        <datetimepicker data-ng-model="data.dateDropDownInput" data-datetimepicker-config="{ dropdownSelector: '#dropdown2' }" />
-                    </ul>
-                </div> --> <br> <button class="btn btn-default" ng-click="selling(food)">Sale</button> </form> </div> </div> </div>
+</div> --> <div class="scrollable"> <div class="scrollable-content"> <div content-for="title"> <span>Sell your food</span> </div> <div class="login_module"> <h1>Share your food</h1> <form novalidate class="simple-form"> <label>What are you cooking?</label> <br> <input type="text" ng-model="food.name" class="form-control" ng-required> <br> <label>Cusine:</label> <br> <input type="text" ng-model="food.cusine" class="form-control" ng-required> <label>Description:</label> <br> <textarea ng-model="food.description" class="form-control" ng-required>
+                <br>
+                <label>Price pershare:</label>
+                <br>
+                <input type="number" ng-model="food.price" class="form-control" ng-required>
+                <br>
+                <label>Time</label>
+                <datetimepicker data-ng-model="data.date" ng-required></datetimepicker>
+                <!--  <div class="form-group">
+                    <label class="control-label"><i class="fa fa-calendar"></i> Datetime picker</label>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" size="10" class="form-control" ng-model="sharedDate" data-autoclose="1" placeholder="Date" bs-datepicker>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" size="8" class="form-control" ng-model="sharedDate" data-autoclose="1" placeholder="Time" bs-timepicker>
+                    </div>
+                </div> -->
+                <br>
+                <label>
+                    Images
+                </label>
+                <div ng-repeat="link in fileLinks">
+                    <img ng-src="{{link}}">
+                </div>
+                <div file_upload></div>
+
+                <button class="btn btn-default btn-primary" ng-click="selling(food)">Sale</button>
+            </form>
+        </div>
+        {{food}}
+
+    </div>
+</div>
