@@ -1,4 +1,4 @@
-<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.2beccc4b.css"> <link rel="stylesheet" href="styles/main.3b36c5e7.css">  <body ng-app="newRemediApp"> <ng-toast></ng-toast> <!--[if lt IE 7]>
+<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.2beccc4b.css"> <link rel="stylesheet" href="styles/main.3b36c5e7.css">  <body ng-app="newRemediApp" ng-controller="IndexCtrl"> <ng-toast></ng-toast> <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]--> <!-- Add your site or application content here --> <!-- div class="header">
         <ul class="nav nav-pills pull-right">
@@ -8,22 +8,7 @@
             </li>
         </ul>
         <h3 class="text-muted">Remdi</h3>
-        </div>--> <!--     <div class="navbar navbar-default navbar-fixed-top" role="navigation">--> <div class="navbar navbar-default navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Remedi</a> </div> <div class="navbar-collapse collapse"> <ul class="nav navbar-nav"> <li class="active"><a href="#">Home</a> </li> <li class=""><a href="#/bookings">Bookingslist</a> </li> <li class=""><a href="#/about">Make booking</a> </li> <li><a href="#/register">Register</a> </li> <li><a href="#/forgetPassword">Forget Password </li> </ul> <!-- <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" ng-hide='currentUser' data-toggle="dropdown">Login
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#/register">Register</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header"></li>
-                            <li><a href="#/forgetpassword"/>Forget Password</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                </ul> --> </div> <!--/.nav-collapse --> </div> </div> <div class="warpper"> <!--appending the view here--> <div ng-view=""></div> </div> <!-- <div class="footer">
+        </div>--> <!--     <div class="navbar navbar-default navbar-fixed-top" role="navigation">--> <div class="navbar navbar-default navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Remedi</a> </div> <div class="navbar-collapse collapse"> <ul class="nav navbar-nav"> <li class="active"><a href="#">Home</a> </li> <li class=""><a href="#/bookings">Bookingslist</a> </li> <li class=""><a href="#/about">Make booking</a> </li> <li><a ng-show="!currentUser" href="#/register">Register</a> </li> <li><a ng-show="!currentUser" href="#/forgetPassword">Forget Password</a> </li> <li><a ng-show="!currentUser" href="#/login">Login</a> </li> <li ng-show="currentUser"><a href="#/secure/userProfile">Login:{{currentUser}}</a></li> </ul> </div> <!--/.nav-collapse --> </div> </div> <div class="warpper"> <!--appending the view here--> <div ng-view=""></div> </div> <!-- <div class="footer">
             <p class="container">
                 <span class="glyphicon glyphicon-heart"></span>
             </p>
@@ -42,4 +27,4 @@
     ga('create', 'UA-XXXXX-X');
     ga('send', 'pageview');</script> <!--[if lt IE 9]>
     <script src="scripts/oldieshim.a466b7b1.js"></script>
-    <![endif]--> <script src="scripts/vendor.fccf7e5a.js"></script> <script src="scripts/scripts.1d4af0d0.js"></script>  
+    <![endif]--> <script src="scripts/vendor.fccf7e5a.js"></script> <script src="scripts/scripts.e5568b1f.js"></script>  
