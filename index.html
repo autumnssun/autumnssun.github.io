@@ -11,18 +11,21 @@
 
 <body>
     <div class='container-fluid'>
-        <div class="col-xs-2 green">
+        <div class=" purple t">
         </div>
-        <div class="col-xs-2 blue">
+        <div class=" vio t">
         </div>
-        <div class="col-xs-2 yellow">
+        <div class=" green t">
         </div>
-        <div class="col-xs-2 organge">
+        <div class=" blue t">
         </div>
-        <div class="col-xs-2 red">
+        <div class=" yellow t">
         </div>
-        <div class="col-xs-2 purple">
+        <div class=" organge t">
         </div>
+        <div class=" red t">
+        </div>
+
     </div>
 </body>
 
@@ -31,26 +34,39 @@
     padding: 0;
     margin: 0;
 }
-div {
+.t {
     height: 100%;
+    width: 14.28%;
     display: block;
+    float: left;
+}
+.vio {
+    background-color: #B36CFF;
 }
 .green {
     background-color: #00E842;
 }
-.blue{
-	background-color: #009EFF;
+.blue {
+    background-color: #009EFF;
 }
-.yellow{
-	background-color: #FFFC00;
+.yellow {
+    background-color: #FFFC00;
 }
-.organge{
-	background-color: #E88800;
+.organge {
+    background-color: #E88800;
 }
-.red{
-	background-color: #FF0200;
+.red {
+    background-color: #FF0200;
 }
-.purple{
-	background-color: #9411FF;
+.purple {
+    background-color: #9411FF;
+}
+@media (max-width: 640px) {
+    .t {
+        width: 100%;
+        height: 14.28%;
+        display: block;
+        float: left;
+    }
 }
 </style>
