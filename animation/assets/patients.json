@@ -1,11 +1,13 @@
 {
     "users": [{
-        "user_id": 1,
-        "name": "User1",
-        "email": "user1@email.com",
+        "user_id": 34791231,
+        "name": "Khoa Tran",
+        "email": "khoa.tran.nano@gmail.com",
         "title": "Mr",
-        "photo_url": "https://www.hipchat.com/chris.png",
+        "dob":625390241000,
+        "photo_url": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p320x320/10613018_10152708833910090_3264557657541749432_n.jpg?oh=e3104939f380bc30a035c06a76cdb950&oe=54BC2A37&__gda__=1420712876_4388007810e7e6f5ac307b31dbfb337c",
         "address": "1249 Still Street, Mansfield,OH 44902 ",
+        "contact": "0450702402",
         "allergies": [{
             "type": "Peanut",
             "detail": "Peanut detail"
@@ -39,10 +41,16 @@
         "medications": [{
             "date": 1315711352000,
             "list": [{
-                "name": "Panadol",
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            },{
+                "name": "Zinnat",
                 "dose": "3 tbl/day"
             }, {
                 "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            },{
+                "name": "Zinnat",
                 "dose": "3 tbl/day"
             }]
         }, {
