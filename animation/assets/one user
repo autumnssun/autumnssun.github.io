@@ -1,0 +1,33 @@
+{
+    "users": [{
+        "user_id": 1,
+        "name": "User1",
+        "mention_name": "user1",
+        "email": "user1@email.com",
+        "title": "Developer",
+        "photo_url": "https:\/\/www.hipchat.com\/chris.png",
+        "last_active": 1360031425,
+        "created": 1315711352,
+        "status": "away",
+        "status_message": "gym, bbl",
+        "is_group_admin": 1,
+        "is_deleted": 0,
+        "alleries":[{
+            "type":"Peanut",
+            "detail":"Some detail",
+            },{
+                "type":"Soy",
+            "detail":"Some detail",
+
+                }],
+        "history": [{
+            "date": "consult 1"
+        }, {
+            "date": "consult 2"
+        }, {
+            "date": "consult 3"
+        }, {
+            "date": "consult 4"
+        }]
+    }]
+}

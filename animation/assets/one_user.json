@@ -1,0 +1,134 @@
+{
+    "users": [{
+        "user_id": 1,
+        "name": "User1",
+        "mention_name": "user1",
+        "email": "user1@email.com",
+        "title": "Developer",
+        "photo_url": "https://www.hipchat.com/chris.png",
+        "last_active": 1360031425,
+        "created": 1315711352,
+        "status": "away",
+        "status_message": "gym, bbl",
+        "is_group_admin": 1,
+        "is_deleted": 0,
+        "address": "Patient Address",
+        "allergies": [{
+            "type": "Peanut",
+            "detail": "Peanut detail"
+        }, {
+            "type": "Soy",
+            "detail": "soy detail"
+        }, {
+            "type": "Fur",
+            "detail": "soy detail"
+        }],
+        "surgical_history": [{
+            "date": 1315711352,
+            "list": [{
+                "name": "Panadol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }]
+        }, {
+            "date": 1315713342,
+            "list": [{
+                "name": "Panadol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }]
+        }],
+        "medications": [{
+            "date": 1315711352,
+            "list": [{
+                "name": "Panadol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }]
+        }, {
+            "date": 1315713342,
+            "list": [{
+                "name": "Panadol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }]
+        }],
+        "consultation_history": [{
+            "consultation_id": "cslt_1",
+            "date": "consult 1",
+            "summary": " This is a summary of this consultation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": "consult 2",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": "consult 3",
+            "summary": " This is a summary of this consulation"
+        }]
+    }, {
+        "user_id": 2,
+        "name": "User2",
+        "mention_name": "user2",
+        "email": "user1@email.com",
+        "title": "Developer",
+        "photo_url": "https://www.hipchat.com/chris.png",
+        "last_active": 1360031425,
+        "created": 1315711352,
+        "status": "away",
+        "status_message": "gym, bbl",
+        "is_group_admin": 1,
+        "is_deleted": 0,
+        "address": "Patient Address",
+        "allergies": [{
+            "type": "asdas",
+            "detail": "Peanut detail"
+        }, {
+            "type": "asdfa",
+            "detail": "soy detail"
+        }, {
+            "type": "asdf",
+            "detail": "soy detail"
+        }],
+        "medications": [{
+            "date": 13157311352,
+            "list": [{
+                "name": "Panadol",
+                "dose": "32 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }]
+        }, {
+            "date": 13153713342,
+            "list": [{
+                "name": "Panadol",
+                "dose": "33 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 3tbl/day"
+            }]
+        }],
+        "consultation_history": [{
+            "consultation_id": "cslt_1",
+            "date": "consult 1",
+            "summary": " This is a summary of this consultation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": "consult 2",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": "consult 3",
+            "summary": " This is a summary of this consulation"
+        }]
+    }]
+}
