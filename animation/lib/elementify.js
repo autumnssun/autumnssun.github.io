@@ -46,6 +46,8 @@ var PageTransitions = (function($) {
     }
 
     function animate(block, callback) {
+        console.log(block);
+        
         nextPage($(block).closest('.et-wrapper'), $(block).attr('et-out'), $(block).attr('et-in'), callback);
     }
 

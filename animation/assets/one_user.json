@@ -2,17 +2,10 @@
     "users": [{
         "user_id": 1,
         "name": "User1",
-        "mention_name": "user1",
         "email": "user1@email.com",
-        "title": "Developer",
+        "title": "Mr",
         "photo_url": "https://www.hipchat.com/chris.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "away",
-        "status_message": "gym, bbl",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "address": "Patient Address",
+        "address": "1249 Still Street, Mansfield,OH 44902 ",
         "allergies": [{
             "type": "Peanut",
             "detail": "Peanut detail"
@@ -23,27 +16,28 @@
             "type": "Fur",
             "detail": "soy detail"
         }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
+        "bio_mesurements": [{
+            "measure": "Blood Presure",
+            "value": "117/76 mmHg"
         }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
+            "measure": "Blood Glucose (Before meals)",
+            "value": "4.4 mmol/L"
+        }, {
+            "measure": "Height",
+            "value": "176 cm"
+        }, {
+            "measure": "Weight",
+            "value": "76 Kg"
+        }],
+        "operation_history": [{
+            "date": 1381754365000,
+            "operation": "Eyes Laser surgery"
+        }, {
+            "date": 1379162365000,
+            "operation": "Gallbladder - gallstones and surgery."
         }],
         "medications": [{
-            "date": 1315711352,
+            "date": 1315711352000,
             "list": [{
                 "name": "Panadol",
                 "dose": "3 tbl/day"
@@ -52,7 +46,7 @@
                 "dose": "3 tbl/day"
             }]
         }, {
-            "date": 1315713342,
+            "date": 1315713342000,
             "list": [{
                 "name": "Panadol",
                 "dose": "3 tbl/day"
@@ -63,71 +57,24 @@
         }],
         "consultation_history": [{
             "consultation_id": "cslt_1",
-            "date": "consult 1",
+            "date": 1389618346000,
+            "doctor": "Dr Who",
+            "diagnose": "This is a diagnose",
+            "treatment": "Treatment",
             "summary": " This is a summary of this consultation"
         }, {
             "consultation_id": "cslt_2",
-            "date": "consult 2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
             "summary": " This is a summary of this consulation"
         }, {
             "consultation_id": "cslt_3",
-            "date": "consult 3",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 2,
-        "name": "User2",
-        "mention_name": "user2",
-        "email": "user1@email.com",
-        "title": "Developer",
-        "photo_url": "https://www.hipchat.com/chris.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "away",
-        "status_message": "gym, bbl",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "address": "Patient Address",
-        "allergies": [{
-            "type": "asdas",
-            "detail": "Peanut detail"
-        }, {
-            "type": "asdfa",
-            "detail": "soy detail"
-        }, {
-            "type": "asdf",
-            "detail": "soy detail"
-        }],
-        "medications": [{
-            "date": 13157311352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "32 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 13153713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "33 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 3tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
             "summary": " This is a summary of this consulation"
         }]
     }]
