@@ -29,8 +29,8 @@
 .et-page-ontop {
     z-index: 999
 }
-.et-rotate {
-    cursor: pointer
+.et-rotate, .et-pre, .et-next {
+    cursor: pointer;
 }
 .pt-page-moveToLeft {
     -webkit-animation: moveToLeft .6s ease both;
