@@ -18,10 +18,10 @@
         }],
         "bio_mesurements": [{
             "measure": "Blood Presure",
-            "value": "117/76 mmHg"
+            "value": "117/76   "
         }, {
             "measure": "Blood Glucose (Before meals)",
-            "value": "4.4 mmol/L"
+            "value": "4.4 "
         }, {
             "measure": "Height",
             "value": "176 cm"

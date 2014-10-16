@@ -29,7 +29,7 @@
 .et-page-ontop {
     z-index: 999
 }
-.et-rotate, .et-pre, .et-next {
+.et-rotate, .et-pre, .et-next, .et-to {
     cursor: pointer;
 }
 .pt-page-moveToLeft {

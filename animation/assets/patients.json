@@ -4,7 +4,7 @@
         "name": "Khoa Tran",
         "email": "khoa.tran.nano@gmail.com",
         "title": "Mr",
-        "dob":625390241000,
+        "dob": 625390241000,
         "photo_url": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p320x320/10613018_10152708833910090_3264557657541749432_n.jpg?oh=e3104939f380bc30a035c06a76cdb950&oe=54BC2A37&__gda__=1420712876_4388007810e7e6f5ac307b31dbfb337c",
         "address": "1249 Still Street, Mansfield,OH 44902 ",
         "contact": "0450702402",
@@ -12,7 +12,223 @@
             "type": "Peanut",
             "detail": "Peanut detail"
         }, {
-            "type": "Soy",
+            "type": "asjdhks",
+            "detail": "soy detail"
+        }, {
+            "type": "Fur",
+            "detail": "soy detail"
+        }],
+        "bio_mesurements": [{
+            "type":"Blood Pressure",
+            "vals": [{
+                "date": 624390241000,
+                "value": "117/76   "
+            }, {
+                "date": 625392241000,
+                "value": "117/76   "
+            },{
+                "date": 625324241000,
+                "value": "117/76   "
+            },{
+                "date": 625390441000,
+                "value": "117/76   "
+            },{
+                "date": 625390641000,
+                "value": "117/76   "
+            }]
+        }, {
+            "type":"Blood Glucose",
+            "vals":[{
+                "date": 625391241000,
+                "value": "4.4 "
+            },{
+                "date": 625393241000,
+                "value": "4.4 "
+            },{
+                "date": 623393241000,
+                "value": "4.4 "
+            },{
+                "date": 625393251000,
+                "value": "4.4 "
+            },{
+                "date": 625393246000,
+                "value": "4.4 "
+            }, {
+                "date": 625394241000,
+                "value": "4.4 "
+            }]
+        }, {
+            "type":"Height",
+            "vals": [{
+                "date": 625393241000,
+                "value": "173 cm"
+            }, {
+                "date": 625394241000,
+                "value": "173 cm"
+            }]
+        }, {
+            "type":"Weight",
+            "vals": [{
+                "date": 625323241000,
+                "value": "94 KG"
+            }, {
+                "date": 625394241000,
+                "value": "44 KG"
+            }]
+        }],
+        "operation_history": [{
+            "date": 1381754365000,
+            "operation": "Eyes Laser surgery"
+        }, {
+            "date": 1379162365000,
+            "operation": "Gallbladder - gallstones and surgery."
+        }],
+        "medications": [{
+            "date": 1315711352000,
+            "list": [{
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }]
+        }, {
+            "date": 1315713342000,
+            "list": [{
+                "name": "Panadol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }]
+        },{
+            "date": 1315711352000,
+            "list": [{
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetanon",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }]
+        }],
+        "consultation_history": [{
+            "consultation_id": "cslt_1",
+            "date": 1389618346000,
+            "doctor": "Dr Who",
+            "diagnose": "This is a diagnose",
+            "treatment": "Treatment",
+            "summary": " This is a summary of this consultation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_2",
+            "date": 1405256746000,
+            "doctor": "Dr Who",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }, {
+            "consultation_id": "cslt_3",
+            "date": 1410613546000,
+            "doctor": "Dr Betty Smith",
+            "diagnose": "",
+            "treatment": "This is a diagnose",
+            "summary": " This is a summary of this consulation"
+        }]
+    }, {
+        "user_id": 34791231,
+        "name": "Andrew Deker",
+        "email": "khoa.tran.nano@gmail.com",
+        "title": "Mr",
+        "dob": 625390241000,
+        "photo_url": "https://scontent-b-sea.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/162957_10150092620203072_577039_n.jpg?oh=28342bd435587019a129c28bd2692a08&oe=54AD0F1C",
+        "address": "1249 Still Street, Mansfield,OH 44902 ",
+        "contact": "045372402",
+        "allergies": [{
+            "type": "Peanut",
+            "detail": "Peanut detail"
+        }, {
+            "type": "asjdhks",
             "detail": "soy detail"
         }, {
             "type": "Fur",
@@ -20,10 +236,10 @@
         }],
         "bio_mesurements": [{
             "measure": "Blood Presure",
-            "value": "117/76 mmHg"
+            "value": "117/76   "
         }, {
             "measure": "Blood Glucose (Before meals)",
-            "value": "4.4 mmol/L"
+            "value": "4.4 "
         }, {
             "measure": "Height",
             "value": "176 cm"
@@ -43,13 +259,13 @@
             "list": [{
                 "name": "Zinnat",
                 "dose": "3 tbl/day"
-            },{
+            }, {
                 "name": "Zinnat",
                 "dose": "3 tbl/day"
             }, {
                 "name": "Paracetanon",
                 "dose": "3 tbl/day"
-            },{
+            }, {
                 "name": "Zinnat",
                 "dose": "3 tbl/day"
             }]
@@ -83,472 +299,6 @@
             "doctor": "Dr Betty Smith",
             "diagnose": "",
             "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 2,
-        "name": "user2",
-        "mention_name": "user2",
-        "email": "user2@hipchat.com",
-        "title": "Designer",
-        "photo_url": "https:\/\/www.hipchat.com\/pete.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "offline",
-        "status_message": "",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "Soy",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "medications": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 3,
-        "name": "Garret Heaton",
-        "mention_name": "garret",
-        "email": "garret@hipchat.com",
-        "title": "Co-founder",
-        "photo_url": "https:\/\/www.hipchat.com\/garret.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "available",
-        "status_message": "Come see what I'm working on!",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "Soy",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "medications": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 4,
-        "name": "Garret Heaton",
-        "mention_name": "garret",
-        "email": "garret@hipchat.com",
-        "title": "Co-founder",
-        "photo_url": "https:\/\/www.hipchat.com\/garret.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "available",
-        "status_message": "Come see what I'm working on!",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "Soy",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "medications": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 5,
-        "name": "Garret Heaton",
-        "mention_name": "garret",
-        "email": "garret@hipchat.com",
-        "title": "Co-founder",
-        "photo_url": "https:\/\/www.hipchat.com\/garret.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "available",
-        "status_message": "Come see what I'm working on!",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "history": [{
-            "date": "consult 1"
-        }, {
-            "date": "consult 2"
-        }, {
-            "date": "consult 3"
-        }, {
-            "date": "consult 4"
-        }]
-    }, {
-        "user_id": 6,
-        "name": "Garret Heaton",
-        "mention_name": "garret",
-        "email": "garret@hipchat.com",
-        "title": "Co-founder",
-        "photo_url": "https:\/\/www.hipchat.com\/garret.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "available",
-        "status_message": "Come see what I'm working on!",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "Soy",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "medications": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 7,
-        "name": "Garret Heaton",
-        "mention_name": "garret",
-        "email": "garret@hipchat.com",
-        "title": "Co-founder",
-        "photo_url": "https:\/\/www.hipchat.com\/garret.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "available",
-        "status_message": "Come see what I'm working on!",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "Soy",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "medications": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 8,
-        "name": "Iser 1",
-        "mention_name": "garret",
-        "email": "garret@hipchat.com",
-        "title": "Co-founder",
-        "photo_url": "https:\/\/www.hipchat.com\/garret.png",
-        "last_active": 1360031425,
-        "created": 1315711352,
-        "status": "available",
-        "status_message": "Come see what I'm working on!",
-        "is_group_admin": 1,
-        "is_deleted": 0,
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "Soy",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "surgical_history": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "medications": [{
-            "date": 1315711352,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }, {
-            "date": 1315713342,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": "consult 1",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": "consult 2",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": "consult 3",
             "summary": " This is a summary of this consulation"
         }]
     }]
