@@ -78,10 +78,16 @@
         }],
         "operation_history": [{
             "date": 1381754365000,
-            "operation": "Eyes Laser surgery"
+            "operation": "Eyes Laser surgery",
+            "details":"Short sight cure"
         }, {
             "date": 1379162365000,
-            "operation": "Gallbladder - gallstones and surgery."
+            "operation": "Gallbladder - gallstones and surgery.",
+            "details":"Remove a 9mm gallstones from right bladder"
+        },{
+            "date": 1381754365000,
+            "operation": "Gallbladder - gallstones and surgery.",
+            "details":"Removed a 12mm gallstones from left bladder - keyhole"
         }],
         "medications": [{
             "date": 1315711352000,
