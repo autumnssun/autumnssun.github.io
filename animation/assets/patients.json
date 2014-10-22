@@ -1,98 +1,129 @@
 {
     "users": [{
         "user_id": 34791231,
-        "name": "Khoa Tran",
-        "email": "khoa.tran.nano@gmail.com",
+        "name": "Anud Theodord",
+        "email": "Anud.Theodord@sgmail.com",
         "title": "Mr",
+        "gender": "Male",
         "dob": 625390241000,
-        "photo_url": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p320x320/10613018_10152708833910090_3264557657541749432_n.jpg?oh=e3104939f380bc30a035c06a76cdb950&oe=54BC2A37&__gda__=1420712876_4388007810e7e6f5ac307b31dbfb337c",
+        "photo_url": "https://team.org/static/images/generic_avatar_300.gif",
         "address": "1249 Still Street, Mansfield,OH 44902 ",
-        "contact": "0450702402",
+        "contact": "0450302402",
         "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
+            "type": "Soy",
+            "detail": "Peanut detail",
+            "level": "High"
         }, {
-            "type": "asjdhks",
-            "detail": "soy detail"
+            "type": "Pollen",
+            "detail": "Eyes get irritated",
+            "level": "High"
         }, {
-            "type": "Fur",
-            "detail": "soy detail"
+            "type": "Mold",
+            "detail": "Coughing",
+            "level": "Medium"
         }],
         "bio_mesurements": [{
-            "type":"Blood Pressure",
+            "type": "Blood Pressure",
             "vals": [{
-                "date": 624390241000,
-                "value": "117/76   "
+                "date": 1382422599000,
+                "value": "120/89   "
             }, {
-                "date": 625392241000,
-                "value": "117/76   "
-            },{
-                "date": 625324241000,
-                "value": "117/76   "
-            },{
-                "date": 625390441000,
-                "value": "117/76   "
-            },{
-                "date": 625390641000,
-                "value": "117/76   "
+                "date": 1385100999000,
+                "value": "140/90"
+            }, {
+                "date": 1386828999000,
+                "value": "137/88"
+            }, {
+                "date": 1389507399000,
+                "value": "132/77"
+            }, {
+                "date": 1392507399000,
+                "value": "123/82"
             }]
         }, {
-            "type":"Blood Glucose",
-            "vals":[{
-                "date": 625391241000,
-                "value": "4.4 "
-            },{
-                "date": 625393241000,
-                "value": "4.4 "
-            },{
-                "date": 623393241000,
-                "value": "4.4 "
-            },{
-                "date": 625393251000,
-                "value": "4.4 "
-            },{
-                "date": 625393246000,
+            "type": "Blood Glucose",
+            "vals": [{
+                "date": 1382422599000,
                 "value": "4.4 "
             }, {
-                "date": 625394241000,
+                "date": 1385100999000,
+                "value": "4.4 "
+            }, {
+                "date": 1386828999000,
+                "value": "4.4 "
+            }, {
+                "date": 1389507399000,
+                "value": "4.4 "
+            }, {
+                "date": 1392507399000,
+                "value": "4.4 "
+            }, {
+                "date": 1394604999000,
                 "value": "4.4 "
             }]
         }, {
-            "type":"Height",
+            "type": "Height",
             "vals": [{
-                "date": 625393241000,
+                "date": 1382422599000,
+                "value": "172 cm"
+            }, {
+                "date": 1385100999000,
                 "value": "173 cm"
             }, {
-                "date": 625394241000,
+                "date": 1386828999000,
+                "value": "173 cm"
+            }, {
+                "date": 1389507399000,
+                "value": "173 cm"
+            }, {
+                "date": 1392507399000,
+                "value": "173 cm"
+            }, {
+                "date": 1394604999000,
                 "value": "173 cm"
             }]
         }, {
-            "type":"Weight",
+            "type": "Weight",
             "vals": [{
-                "date": 625323241000,
-                "value": "94 KG"
+                "date": 1382422599000,
+                "value": "99kg"
             }, {
-                "date": 625394241000,
-                "value": "44 KG"
+                "date": 1385100999000,
+                "value": "96kg"
+            }, {
+                "date": 1386828999000,
+                "value": "93kg"
+            }, {
+                "date": 1389507399000,
+                "value": "88kg"
+            }, {
+                "date": 1392507399000,
+                "value": "85kg"
+            }, {
+                "date": 1394604999000,
+                "value": "82kg"
             }]
         }],
         "operation_history": [{
-            "date": 1381754365000,
+            "date": 1382422599000,
             "operation": "Eyes Laser surgery",
-            "details":"Short sight cure"
+            "details": "Short sight cure"
         }, {
-            "date": 1379162365000,
+            "date": 1386828999000,
             "operation": "Gallbladder - gallstones and surgery.",
-            "details":"Remove a 9mm gallstones from right bladder"
-        },{
-            "date": 1381754365000,
+            "details": "Remove a 9mm gallstones from right bladder"
+        }, {
+            "date": 1392537399000,
             "operation": "Gallbladder - gallstones and surgery.",
-            "details":"Removed a 12mm gallstones from left bladder - keyhole"
+            "details": "Removed a 12mm gallstones from left bladder - keyhole"
         }],
         "medications": [{
-            "date": 1315711352000,
+            "date": 1382423599000,
+            "scribribedBy": "Dr. Antonie",
+            "scribriberNumber": 34312342,
+            "duration": "5 days",
             "list": [{
-                "name": "Zinnat",
+                "name": "Amoxine",
                 "dose": "3 tbl/day"
             }, {
                 "name": "Zinnat",
@@ -103,23 +134,18 @@
             }, {
                 "name": "Zinnat",
                 "dose": "3 tbl/day"
-            }]
+            }],
+            "instruction": "Medication should be taken after meal"
         }, {
-            "date": 1315713342000,
+            "date": 1392723599000,
+            "scribribedBy": "Dr. Antonie",
+            "scribriberNumber": 34312342,
+            "duration": "5 days",
             "list": [{
-                "name": "Panadol",
+                "name": "Amoxine",
                 "dose": "3 tbl/day"
             }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        },{
-            "date": 1315711352000,
-            "list": [{
-                "name": "Zinnat",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Zinnat",
+                "name": "Peniciline",
                 "dose": "3 tbl/day"
             }, {
                 "name": "Paracetanon",
@@ -127,185 +153,114 @@
             }, {
                 "name": "Zinnat",
                 "dose": "3 tbl/day"
-            }]
+            }],
+            "instruction": "Medication should be taken after meal"
         }],
         "consultation_history": [{
-            "consultation_id": "cslt_1",
+            "consultation_id": "1389618346000_34791231",
             "date": 1389618346000,
             "doctor": "Dr Who",
+            "bookingNumber": 3129342,
+            "providerNumber": 94812343,
             "diagnose": "This is a diagnose",
             "treatment": "Treatment",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }]
-    }, {
-        "user_id": 34791231,
-        "name": "Andrew Deker",
-        "email": "khoa.tran.nano@gmail.com",
-        "title": "Mr",
-        "dob": 625390241000,
-        "photo_url": "https://scontent-b-sea.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/162957_10150092620203072_577039_n.jpg?oh=28342bd435587019a129c28bd2692a08&oe=54AD0F1C",
-        "address": "1249 Still Street, Mansfield,OH 44902 ",
-        "contact": "045372402",
-        "allergies": [{
-            "type": "Peanut",
-            "detail": "Peanut detail"
-        }, {
-            "type": "asjdhks",
-            "detail": "soy detail"
-        }, {
-            "type": "Fur",
-            "detail": "soy detail"
-        }],
-        "bio_mesurements": [{
-            "measure": "Blood Presure",
-            "value": "117/76   "
-        }, {
-            "measure": "Blood Glucose (Before meals)",
-            "value": "4.4 "
-        }, {
-            "measure": "Height",
-            "value": "176 cm"
-        }, {
-            "measure": "Weight",
-            "value": "76 Kg"
-        }],
-        "operation_history": [{
-            "date": 1381754365000,
-            "operation": "Eyes Laser surgery"
-        }, {
-            "date": 1379162365000,
-            "operation": "Gallbladder - gallstones and surgery."
-        }],
-        "medications": [{
-            "date": 1315711352000,
-            "list": [{
-                "name": "Zinnat",
-                "dose": "3 tbl/day"
+            "summary": " This is a summary of this consultation",
+
+            "orders": [{
+                "type": "Pathology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Iron study",
+                "instructionToPatient": "Please fasting",
+                "instructionTospecialist": "Standard procedure"
             }, {
-                "name": "Zinnat",
-                "dose": "3 tbl/day"
+                "type": "Radiology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Lung x-ray",
+                "instructionToPatient": "No special instruction",
+                "instructionTospecialist": "Standard procedure"
+            }],
+            "referals": [{
+                "destinatedProvider": "Dr Kennobi",
+                "speciality": "cancer"
+            }],
+            "medications": "",
+            "procedures": [{
+                "procedureCode": 32,
+                "amount": 1
             }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Zinnat",
-                "dose": "3 tbl/day"
-            }]
+                "procedureCode": 34,
+                "amount": 1
+            }],
+            "billing": {
+                "invoice_number": "1389618346000_34791231_1",
+                "cashier": "Receptionist A",
+                "invoice_detail":[{
+                    "item_code": 32,
+                    "amount": 1,
+                    "fee": 99.9,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 34,
+                    "amount": 1,
+                    "fee": 32.1,
+                    "note": "Special Notes"
+                }],
+                "paidAmount": 132
+            }
         }, {
-            "date": 1315713342000,
-            "list": [{
-                "name": "Panadol",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Paracetanon",
-                "dose": "3 tbl/day"
-            }]
-        }],
-        "consultation_history": [{
-            "consultation_id": "cslt_1",
-            "date": 1389618346000,
-            "doctor": "Dr Who",
+            "consultation_id": "1429618346000_34791231",
+            "date": 1429618346000,
+            "doctor": "Dr Zoerbert",
+            "bookingNumber": 3699342,
+            "providerNumber": 944312343,
             "diagnose": "This is a diagnose",
             "treatment": "Treatment",
-            "summary": " This is a summary of this consultation"
-        }, {
-            "consultation_id": "cslt_2",
-            "date": 1405256746000,
-            "doctor": "Dr Who",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
-        }, {
-            "consultation_id": "cslt_3",
-            "date": 1410613546000,
-            "doctor": "Dr Betty Smith",
-            "diagnose": "",
-            "treatment": "This is a diagnose",
-            "summary": " This is a summary of this consulation"
+            "summary": " This is a summary of this consultation",
+            "orders":[{
+                "type": "Pathology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Iron study",
+                "instructionToPatient": "Please fasting",
+                "instructionTospecialist": "Standard procedure"
+            }, {
+                "type": "Radiology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Lung x-ray",
+                "instructionToPatient": "No special instruction",
+                "instructionTospecialist": "Standard procedure"
+            }],
+            "referals": [{
+                "destinatedProvider": "Dr Kennobi",
+                "speciality": "cancer"
+            }],
+            "medications": "",
+            "procedures": [{
+                "procedureCode": 32,
+                "amount": 1
+            }, {
+                "procedureCode": 34,
+                "amount": 1
+            }],
+            "billing": {
+                "invoice_number": "1389618346000_34791231_1",
+                "cashier": "Receptionist A",
+                "invoice_detail": [{
+                    "item_code": 32,
+                    "amount": 1,
+                    "fee": 99.9,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 34,
+                    "amount": 1,
+                    "fee": 32.1,
+                    "note": "Special Notes"
+                }],
+                "paidAmount": 132
+            }
         }]
     }]
 }
