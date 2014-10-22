@@ -5,12 +5,14 @@
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk/debug.js#xfbml=1&appId=1619826378244292&version=v2.0";
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1619826378244292&version=v2.0";
+    //js.src = "//connect.facebook.net/en_US/sdk/debug.js#xfbml=1&appId=1619826378244292&version=v2.0";
+
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 </script>
-<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div>
 <div onclick="logOut()">Logout</div>
+<div onclick="logIn()">Login</div>
 
 <script type="text/javascript">
 var logOut = function() {
@@ -18,4 +20,17 @@ var logOut = function() {
         console.log(response);
     });
 }
-</script>>
+
+var logIn = function() {
+    FB.login(function(response) {
+        if (response.authResponse) {
+            console.log('Welcome!  Fetching your information.... ');
+            FB.api('/me', function(response) {
+                console.log('Good to see you, ' + response.name + '.');
+            });
+        } else {
+            console.log('User cancelled login or did not fully authorize.');
+        }
+    });
+}
+</script>
