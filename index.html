@@ -28,6 +28,11 @@ $(document).ready(function() {
     });
 });
 
+var updateStatusCallback= function (data){
+  console.log(data);
+
+}
+
 var logOut = function() {
     FB.logout(function(response) {
         console.log(response);
