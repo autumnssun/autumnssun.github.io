@@ -1,0 +1,16 @@
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="jquery.cookie.js"></script>
+<script>
+var setCookie= function (_val){
+	$.cookie('name', _val);
+	$(".thing").empty().append(getCookie);
+
+}
+
+var getCookie=function(){
+	return $.cookie('name');
+}
+</script>
+
+<button onclick="setCookie(423)">Set cookie to 423</button>
+<div class="thing"></div>
