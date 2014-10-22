@@ -1,5 +1,5 @@
 <div id="fb-root"></div>
-<script>
+<!--script>
 (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -10,29 +10,24 @@
 
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-<div id="fb-root"></div>
-<script>
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1619826378244292&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
+</script-->
 
 <div onclick="logOut()">Logout</div>
 <div onclick="logIn()">Login</div>
 
 <script type="text/javascript">
-FB.getLoginStatus(function(response) {
-  console.log(response);
-    // this will be called when the roundtrip to Facebook has completed
-}, true);
+$(document).ready(function() {
+    $.ajaxSetup({
+        cache: true
+    });
+    $.getScript('//connect.facebook.net/en_US/all.js', function() {
+        FB.init({
+            appId: '1619826378244292',
+        });
+        FB.getLoginStatus(updateStatusCallback);
+    });
+});
+
 var logOut = function() {
     FB.logout(function(response) {
         console.log(response);
