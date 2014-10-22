@@ -29,6 +29,9 @@
 <div onclick="logIn()">Login</div>
 
 <script type="text/javascript">
+FB.getLoginStatus(function(response) {
+    // this will be called when the roundtrip to Facebook has completed
+}, true);
 var logOut = function() {
     FB.logout(function(response) {
         console.log(response);
