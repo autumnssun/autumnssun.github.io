@@ -73,6 +73,12 @@
     animation: moveFromBottom .6s ease both
 }
 .pt-page-fade {
+    -webkit-animation: fade .0s ease both;
+    -moz-animation: fade .0s ease both;
+    animation: fade .0s ease both
+}
+
+.pt-page-fade7 {
     -webkit-animation: fade .7s ease both;
     -moz-animation: fade .7s ease both;
     animation: fade .7s ease both
