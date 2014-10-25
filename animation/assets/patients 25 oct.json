@@ -48,22 +48,22 @@
             "type": "Blood Glucose",
             "vals": [{
                 "date": 1382422599000,
-                "value": "6.4 "
+                "value": "4.4 "
             }, {
                 "date": 1385100999000,
-                "value": "4.2 "
+                "value": "4.4 "
             }, {
                 "date": 1386828999000,
-                "value": "5.2 "
+                "value": "4.4 "
             }, {
                 "date": 1389507399000,
-                "value": "5.9 "
+                "value": "4.4 "
             }, {
                 "date": 1392507399000,
-                "value": "3.9 "
+                "value": "4.4 "
             }, {
                 "date": 1394604999000,
-                "value": "5.5 "
+                "value": "4.4 "
             }]
         }, {
             "type": "Height",
