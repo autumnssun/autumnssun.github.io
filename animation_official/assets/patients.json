@@ -1,0 +1,351 @@
+{
+    "users": [{
+        "user_id": 34791231,
+        "name": "Anon Theodord",
+        "email": "anon.theodord@smail.com",
+        "title": "Mr",
+        "gender": "Male",
+        "dob": 625390241000,
+        "photo_url": "https://team.org/static/images/generic_avatar_300.gif",
+        "address": "1249 Still Street, Mansfield,OH 44902 ",
+        "contact": "0450302402",
+        "allergies": [{
+            "type": "Soy",
+            "detail": "Peanut detail",
+            "level": "High"
+        }, {
+            "type": "Pollen",
+            "detail": "Eyes get irritated",
+            "level": "High"
+        }, {
+            "type": "Mold",
+            "detail": "Coughing",
+            "level": "Medium"
+        }, {
+            "type": "Craw Fish",
+            "detail": "Swelling",
+            "level": "High"
+        }],
+        "bio_mesurements": [{
+            "type": "Blood Pressure",
+            "vals": [{
+                "date": 1382422599000,
+                "value": "120/89   "
+            }, {
+                "date": 1385100999000,
+                "value": "140/90"
+            }, {
+                "date": 1386828999000,
+                "value": "137/88"
+            }, {
+                "date": 1389507399000,
+                "value": "132/77"
+            }, {
+                "date": 1392507399000,
+                "value": "123/82"
+            }]
+        }, {
+            "type": "Blood Glucose",
+            "vals": [{
+                "date": 1382422599000,
+                "value": "6.4 "
+            }, {
+                "date": 1385100999000,
+                "value": "4.2 "
+            }, {
+                "date": 1386828999000,
+                "value": "5.2 "
+            }, {
+                "date": 1389507399000,
+                "value": "5.9 "
+            }, {
+                "date": 1392507399000,
+                "value": "3.9 "
+            }, {
+                "date": 1394604999000,
+                "value": "5.5 "
+            }]
+        }, {
+            "type": "Height",
+            "vals": [{
+                "date": 1382422599000,
+                "value": "172 cm"
+            }, {
+                "date": 1385100999000,
+                "value": "173 cm"
+            }, {
+                "date": 1386828999000,
+                "value": "173 cm"
+            }, {
+                "date": 1389507399000,
+                "value": "173 cm"
+            }, {
+                "date": 1392507399000,
+                "value": "173 cm"
+            }, {
+                "date": 1394604999000,
+                "value": "173 cm"
+            }]
+        }, {
+            "type": "Weight",
+            "vals": [{
+                "date": 1382422599000,
+                "value": "99kg"
+            }, {
+                "date": 1385100999000,
+                "value": "96kg"
+            }, {
+                "date": 1386828999000,
+                "value": "93kg"
+            }, {
+                "date": 1389507399000,
+                "value": "88kg"
+            }, {
+                "date": 1392507399000,
+                "value": "85kg"
+            }, {
+                "date": 1394604999000,
+                "value": "82kg"
+            }]
+        }],
+        "operation_history": [{
+            "date": 1382422599000,
+            "operation": "Eyes Laser surgery",
+            "details": "This is done to correct myopia (short-sightedness), no need to wear glasses after surgery."
+        }, {
+            "date": 1386828999000,
+            "operation": "Gallstones removal.",
+            "details": "Remove a 9mm gallstones from right kiney"
+        }, {
+            "date": 1392537399000,
+            "operation": "Gallstones removal.",
+            "details": "Removed a 12mm gallstones from left kiney - keyhole"
+        },{
+            "date": 1432537399000,
+            "operation": "Kidney transplant",
+            "details": "Left kidney transplant"
+        }, {
+            "date": 1470537399000,
+            "operation": "Appendicitis removal",
+            "details": "Removed Appendicitis due to Appendicitis infection - keyhole"
+        }],
+        "medications": [{
+            "date": 1382423599000,
+            "scribribedBy": "Dr. Antonie",
+            "scribriberNumber": 34312342,
+            "duration": "5 days",
+            "list": [{
+                "name": "Amoxine",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetamol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }],
+            "instruction": "Medication should be taken after meal"
+        }, {
+            "date": 1392723599000,
+            "scribribedBy": "Dr. Antonie",
+            "scribriberNumber": 34312342,
+            "duration": "5 days",
+            "list": [{
+                "name": "Amoxine 200",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Vicondin 500",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetamol 1000",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat 250",
+                "dose": "3 tbl/day"
+            }],
+            "instruction": "Medication should be taken after meal"
+        }, {
+            "date": 1412723599000,
+            "scribribedBy": "Dr. Anderson",
+            "scribriberNumber": 32312342,
+            "duration": "5 days",
+            "list": [{
+                "name": "Amoxine",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Peniciline",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Paracetamol",
+                "dose": "3 tbl/day"
+            }, {
+                "name": "Zinnat",
+                "dose": "3 tbl/day"
+            }],
+            "instruction": "Medication should be taken after meal"
+        }],
+        "consultation_history": [{
+            "consultation_id": "1389618346000_34791231",
+            "date": 1389618346000,
+            "doctor": "Dr Who",
+            "bookingNumber": 3129342,
+            "providerNumber": 94812343,
+            "diagnose": "This is a diagnose",
+            "treatment": "Treatment",
+            "summary": " This is a summary of this consultation",
+
+            "orders": [{
+                "type": "Pathology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Iron study",
+                "instructionToPatient": "Please fasting",
+                "instructionTospecialist": "Standard procedure"
+            }, {
+                "type": "Radiology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Lung x-ray",
+                "instructionToPatient": "No special instruction",
+                "instructionTospecialist": "Standard procedure"
+            }],
+            "referals": [{
+                "destinatedProvider": "Dr Kennobi",
+                "speciality": "cancer"
+            }],
+            "medications": "",
+            "procedures": [{
+                "procedureCode": 32,
+                "amount": 1
+            }, {
+                "procedureCode": 34,
+                "amount": 1
+            }],
+            "billing": {
+                "invoice_number": "1389618346000_34791231_1",
+                "cashier": "Receptionist A",
+                "invoice_detail": [{
+                    "item_code": 32,
+                    "amount": 1,
+                    "fee": 99.9,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 34,
+                    "amount": 1,
+                    "fee": 32.1,
+                    "note": "Special Notes"
+                }],
+                "paidAmount": 132
+            }
+        }, {
+            "consultation_id": "1429618346000_34791231",
+            "date": 1429618346000,
+            "doctor": "Dr Zoerbert",
+            "bookingNumber": 3691342,
+            "providerNumber": 942312343,
+            "diagnose": "This is a diagnose",
+            "treatment": "Treatment",
+            "summary": " This is a summary of this consultation",
+            "orders": [{
+                "type": "Pathology",
+                "tobeCompletedBy": 1353648346000,
+                "status": "uncomplete",
+                "test": "Iron study",
+                "instructionToPatient": "Please fasting",
+                "instructionTospecialist": "Standard procedure"
+            }, {
+                "type": "Radiology",
+                "tobeCompletedBy": 1353648346000,
+                "status": "uncomplete",
+                "test": "Lung x-ray",
+                "instructionToPatient": "No special instruction",
+                "instructionTospecialist": "Standard procedure"
+            }],
+            "referals": [],
+            "medications": "",
+            "procedures": [{
+                "procedureCode": 332,
+                "amount": 1
+            }, {
+                "procedureCode": 134,
+                "amount": 1
+            }],
+            "billing": {
+                "invoice_number": "1389618346000_3691342_1",
+                "cashier": "Receptionist S",
+                "invoice_detail": [{
+                    "item_code": 312,
+                    "amount": 1,
+                    "fee": 49.9,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 324,
+                    "amount": 1,
+                    "fee": 132.1,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 512,
+                    "amount": 2,
+                    "fee": 19.9,
+                    "note": "Special Notes"
+                }],
+                "paidAmount": 132
+            }
+        }, {
+            "consultation_id": "1389618346000_34791231",
+            "date": 1459618346000,
+            "doctor": "Dr Ben Oak",
+            "bookingNumber": 4329342,
+            "providerNumber": 84812343,
+            "diagnose": "CREST Syndrome",
+            "treatment": "Stop Smoking",
+            "summary": " This is a summary of this consultation",
+            "orders": [{
+                "type": "Pathology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Iron study",
+                "instructionToPatient": "Please fasting",
+                "instructionTospecialist": "Standard procedure"
+            }, {
+                "type": "Radiology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Lung x-ray",
+                "instructionToPatient": "No special instruction",
+                "instructionTospecialist": "Standard procedure"
+            }],
+            "referals": [{
+                "destinatedProvider": "Dr Kennobi",
+                "speciality": "cancer"
+            }],
+            "medications": "",
+            "procedures": [{
+                "procedureCode": 32,
+                "amount": 1
+            }, {
+                "procedureCode": 34,
+                "amount": 1
+            }],
+            "billing": {
+                "invoice_number": "1389618346000_34791231_1",
+                "cashier": "Receptionist A",
+                "invoice_detail": [{
+                    "item_code": 32,
+                    "amount": 1,
+                    "fee": 99.9,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 34,
+                    "amount": 1,
+                    "fee": 32.1,
+                    "note": "Special Notes"
+                }],
+                "paidAmount": 132
+            }
+        }]
+    }]
+}
