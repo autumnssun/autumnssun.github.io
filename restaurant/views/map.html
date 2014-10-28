@@ -3,4 +3,30 @@
     <div class="btn btn-navbar" >
         <i class="fa"></i><a href="#/dining">Back</a>
     </div>
-</div> --> <div content-for="title"> <span>Stores around you</span> </div> <div content-for="rightMenuAction"> <div class="btn btn-navbar"> <a href="#/diningHistory"><i class="fa fa-clock-o"></i>Transactions</a> </div> </div> <!--End of overiding menu bar-->  <div class="map_warp"> <google-map center="map.center" control="map.control" zoom="map.zoom" options="map.options" draggable="true" hm-rotate="myRot($event)"> <markers models="markers" icon="thumb" coords="'self'" click="'click()'" options="'options'" events="markersEvents" islabel="{labelContent:food.name}"></markers> <ui-gmap-marker coords="myloc.coords" idkey="myloc.id"> </ui-gmap-marker></google-map> </div> <div class="map_list"> <div class="scrollable"> <div class="scrollable-content"> <div class="sort_controll"> <div class="col-sm-3" ng-click="changeOder(&quot;readyTime.iso&quot;)">time</div> <div class="col-sm-3" ng-click="changeOder(&quot;address&quot;)">address</div> <div class="col-sm-3" ng-click="changeOder(&quot;-price&quot;)">Most expensive 1st</div> <div class="col-sm-3" ng-click="filter_tag='Vietnamese'">Vietnamese</div> <div class="col-sm-3" ng-click="filter_tag='Italian'">Italian</div> <div class="col-sm-3" ng-click="filter_tag='just steak'">steak</div> <div class="col-sm-3" ng-click="filter_tag=null">All</div> </div> <div ng-show="foodNotAvailable" class="foodNotAvia"> <h4>No food avaiable in your area</h4> </div> <ul class="media-list"> <li class="media" ng-repeat="food in markers | orderBy:orderBy_tag | filterBy:['cusine']:filter_tag"> <a class="pull-left" href="#/store/{{food.objectId}}"> <div class="thumb pull-left"> <img ng-src="{{food.thumb}}" class="img-rounded img-responsive"> </div> <div class="media-body"> <h5 class="media-heading">{{food.name}} - {{food.numberOfServe}} serve(s)</h5> <timer end-time="food.readyTime.iso" class="remainTime"> <span ng-show="days">{{days}}days,</span> <span ng-show="hours">{{hours}}hrs:</span> <span ng-show="minutes">{{minutes}}mins</span> <span ng-hide="minutes+hours+days!==0">Food have expired</span> </timer> </div> </a> <div ng-click="zoomToFood(food.latitude,food.longitude);" class="hud pull-right"> <i class="fa-map-marker fa-2x fa aa-bouch animated"></i> </div> </li> </ul> </div> </div> </div> 
+</div> --> <div content-for="title"> <span>Stores around you</span> </div> <div content-for="rightMenuAction"> <div class="btn btn-navbar"> <a href="#/diningHistory"><i class="fa fa-clock-o"></i>Transactions</a> </div> </div> <!--End of overiding menu bar-->  <div class="map_warp"> <google-map center="map.center" control="map.control" zoom="map.zoom" options="map.options" draggable="true" hm-rotate="myRot($event)"> <markers models="markers" icon="thumb" coords="'self'" click="'click()'" options="'options'" events="markersEvents" islabel="{labelContent:food.name}"></markers> <ui-gmap-marker coords="myloc.coords" idkey="myloc.id"> </ui-gmap-marker></google-map> </div> <div class="map_list"> <div class="scrollable"> <!-- <ui-select ng-model="person.selected" theme="select2" ng-disabled="disabled" style="min-width: 300px;">
+                <ui-select-match placeholder="Select a person in the list or search his name/age...">{{$select.selected.name}}</ui-select-match>
+                <ui-select-choices repeat="person in people | propsFilter: {name: $select.search, age: $select.search}">
+                    <div ng-bind-html="person.name | highlight: $select.search"></div>
+                    <small>
+                        email: {{person.email}} age:
+                        <span ng-bind-html="''+person.age | highlight: $select.search"></span>
+                    </small>
+                </ui-select-choices>
+            </ui-select> --> <!-- <button class="btn btn-default dropdown-toggle" toggle="dropdown">
+                {{orderBy_tag.display}}
+            </button>
+            <ul class="dropdown-menu" role="menu" >
+                <li role="presentation" ng-repeat="v in sortbylist">
+                    <div class="col-sm-3" ng-click='changeOder(v)'>{{v.display}}</div>
+                </li>
+            </ul> --> <!-- <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1"></ul> --> <!-- <div class="col-sm-3" ng-click='changeOder("readyTime.iso")'>time</div>
+            <div class="col-sm-3" ng-click='changeOder("address")'>address</div>
+            <div class="col-sm-3" ng-click='changeOder("-price")'>Most expensive 1st</div>
+            <div class="col-sm-3" ng-click="filter_tag='Vietnamese'">Vietnamese</div>
+            <div class="col-sm-3" ng-click="filter_tag='Italian'">Italian</div>
+            <div class="col-sm-3" ng-click="filter_tag='just steak'">steak</div>
+            <div class="col-sm-3" ng-click="filter_tag=null">All</div> --> <div class="scrollable-content"> <div ng-show="foodNotAvailable" class="foodNotAvia"> <h4>No food avaiable in your area</h4> </div> <ul class="media-list"> <li class="media" ng-repeat="food in markers | orderBy:orderBy_tag.value | filterBy:['cusine']:filter_tag"> <a class="pull-left" href="#/store/{{food.objectId}}"> <div class="thumb pull-left"> <img ng-src="{{food.thumb}}" class="img-rounded img-responsive"> </div> <div class="media-body"> <h5 class="media-heading">{{food.name}} - {{food.numberOfServe}} serve(s)</h5> <timer end-time="food.readyTime.iso" class="remainTime"> <span ng-show="days">{{days}}days,</span> <span ng-show="hours">{{hours}}hrs:</span> <span ng-show="minutes">{{minutes}}mins</span> <span ng-hide="minutes+hours+days!==0">Food have expired</span> </timer> </div> </a> <div ng-click="zoomToFood(food.latitude,food.longitude);" class="hud pull-right"> <i class="fa-map-marker fa-2x fa aa-bouch animated"></i> </div> </li> </ul> </div> </div> </div> 
