@@ -29,8 +29,19 @@ body {
 }
 </style>
 
-<div id="bg_container">
-    <video id="bg" src="video.mp4" autoplay="true" loop="true" muted="true"></video>
-</div>
-<p class="contain">coming soon
-</p>
+<body onload="init();">
+
+    <div id="bg_container">
+        <video id="bg" src="video.mp4" autoplay="true" loop="true" muted="true"></video>
+    </div>
+    <p class="contain">coming soon
+        <br/>
+    </p>
+</body>
+
+<script>
+function init() {
+    var myAudio = document.getElementById("bg");
+    myAudio.play();
+}
+</script>
