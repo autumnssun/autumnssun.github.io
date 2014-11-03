@@ -1,6 +1,5 @@
 <html>
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <style>
 @font-face {
     font-family: 'hel';
@@ -16,7 +15,6 @@ body {
     z-index: -99 !important;
     width: 100%;
     position: absolute;
-
 }
 #bg {
     width: 100%;
@@ -29,22 +27,23 @@ body {
     font-size: 7vw;
     padding-top: 55vw;
     z-index: 99 !important;
-    padding-bottom: 30vw;
-}
-img{
-    width: 100%;
-    height: auto;
 }
 </style>
 
-<body>
+<body onload="init()">
 
-    <div id="bg_container"> <img src="video.gif">
+    <div id="bg_container">
+        <video id="bg" src="video.mp4" autoplay="true" loop="true" muted="true"></video>
     </div>
-    <div class="contain">Coming Soon...
+    <div class="contain" onclick="init()">Coming Soon...
     </div>
 </body>
 
 <script>
-
+function init() {
+    console.log("ads");
+    var myAudio = document.getElementById("bg");
+    console.log(myAudio);
+    myAudio.play();
+}
 </script>
