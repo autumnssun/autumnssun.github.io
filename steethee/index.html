@@ -12,9 +12,9 @@ body {
 #bg_container {
     height: auto;
     overflow: hidden;
-    position: absolute;
-    z-index: -99;
+    z-index: -99 !important;
     width: 100%;
+    position: absolute;
 }
 #bg {
     width: 100%;
@@ -22,10 +22,11 @@ body {
 .contain {
     color: #fff;
     text-align: center;
-    padding-top: 25vw;
     padding-left: 3vw;
     font-family: hel;
     font-size: 7vw;
+    padding-top: 55vw;
+    z-index: 99 !important;
 }
 </style>
 
@@ -34,7 +35,7 @@ body {
     <div id="bg_container">
         <video id="bg" src="video.mp4" autoplay="true" loop="true" muted="true"></video>
     </div>
-    <div class="contain">coming soon
+    <div class="contain">Coming Soon...
     </div>
 </body>
 
