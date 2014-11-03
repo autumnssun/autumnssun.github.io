@@ -30,12 +30,12 @@ body {
 }
 </style>
 
-<body onload="init();">
+<body onload="init()">
 
     <div id="bg_container">
         <video id="bg" src="video.mp4" autoplay="true" loop="true" muted="true"></video>
     </div>
-    <div class="contain">Coming Soon...
+    <div class="contain" onclick="init">Coming Soon...
     </div>
 </body>
 
@@ -43,6 +43,7 @@ body {
 function init() {
     console.log("ads");
     var myAudio = document.getElementById("bg");
+    console.log(myAudio);
     myAudio.play();
 }
 </script>
