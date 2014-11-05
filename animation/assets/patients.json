@@ -5,7 +5,7 @@
         "email": "anon.theodord@smail.com",
         "title": "Mr",
         "gender": "Male",
-        "dob": 625390241000,
+        "dob": 628390241000,
         "photo_url": "https://team.org/static/images/generic_avatar_300.gif",
         "address": "1249 Still Street, Mansfield,OH 44902 ",
         "contact": "0450302402",
@@ -143,9 +143,6 @@
             }, {
                 "name": "Paracetamol",
                 "dose": "3 tbl/day"
-            }, {
-                "name": "Zinnat",
-                "dose": "3 tbl/day"
             }],
             "instruction": "Medication should be taken after meal"
         }, {
@@ -155,16 +152,13 @@
             "duration": "5 days",
             "list": [{
                 "name": "Amoxine 200",
-                "dose": "3 tbl/day"
+                "dose": "6 tbl/day"
             }, {
                 "name": "Vicondin 500",
-                "dose": "3 tbl/day"
+                "dose": "2 tbl/day"
             }, {
                 "name": "Paracetamol 1000",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Zinnat 250",
-                "dose": "3 tbl/day"
+                "dose": "6 tbl/day"
             }],
             "instruction": "Medication should be taken after meal"
         }, {
@@ -174,16 +168,13 @@
             "duration": "5 days",
             "list": [{
                 "name": "Amoxine",
-                "dose": "3 tbl/day"
-            }, {
-                "name": "Peniciline",
-                "dose": "3 tbl/day"
+                "dose": "1 tbl/day"
             }, {
                 "name": "Paracetamol",
-                "dose": "3 tbl/day"
+                "dose": "6 tbl/day"
             }, {
                 "name": "Zinnat",
-                "dose": "3 tbl/day"
+                "dose": "1 tbl/day"
             }],
             "instruction": "Medication should be taken after meal"
         }],
@@ -306,6 +297,58 @@
             "orders": [{
                 "type": "Pathology",
                 "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Iron study",
+                "instructionToPatient": "Please fasting",
+                "instructionTospecialist": "Standard procedure"
+            }, {
+                "type": "Radiology",
+                "tobeCompletedBy": 1389648346000,
+                "status": "uncomplete",
+                "test": "Lung x-ray",
+                "instructionToPatient": "No special instruction",
+                "instructionTospecialist": "Standard procedure"
+            }],
+            "referals": [{
+                "destinatedProvider": "Dr Kennobi",
+                "speciality": "cancer"
+            }],
+            "medications": "",
+            "procedures": [{
+                "procedureCode": 32,
+                "amount": 1
+            }, {
+                "procedureCode": 34,
+                "amount": 1
+            }],
+            "billing": {
+                "invoice_number": "1389618346000_34791231_1",
+                "cashier": "Receptionist A",
+                "invoice_detail": [{
+                    "item_code": 32,
+                    "amount": 1,
+                    "fee": 99.9,
+                    "note": "Special Notes"
+                }, {
+                    "item_code": 34,
+                    "amount": 1,
+                    "fee": 32.1,
+                    "note": "Special Notes"
+                }],
+                "paidAmount": 132
+            }
+        }, {
+            "consultation_id": "1451618346000_34791231",
+            "date": 1451618346000,
+            "doctor": "Dr Tyler ",
+            "bookingNumber": 4329342,
+            "providerNumber": 84812343,
+            "diagnose": "CREST Syndrome",
+            "treatment": "Stop Smoking",
+            "summary": " This is a summary of this consultation",
+            "orders": [{
+                "type": "Pathology",
+                "tobeCompletedBy": 1382648346000,
                 "status": "uncomplete",
                 "test": "Iron study",
                 "instructionToPatient": "Please fasting",
