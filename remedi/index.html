@@ -1,30 +1,254 @@
-<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.2beccc4b.css"> <link rel="stylesheet" href="styles/main.3b36c5e7.css">  <body ng-app="newRemediApp" ng-controller="IndexCtrl"> <ng-toast></ng-toast> <!--[if lt IE 7]>
+<!doctype html>
+<html class="no-js">
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+lang: en_US
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/font-awesome-animation/dist/font-awesome-animation.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/font-awesome-animation/dist/font-awesome-animation.min.css">
+    <!-- endbuild -->
+</head>
+
+<body ng-app="stetheeApp" ng-controller="IndexcontrollerCtrl">
+    <!-- Link to our kick starter project -->
+    <a href="http://www.kickstarter.com" class="supportus  faa-horizontal "></a>
+
+    <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <!-- div class="header">
-        <ul class="nav nav-pills pull-right">
-            <li class="active"><a ng-href="#">Home</a>
-            </li>
-            <li><a ng-href="#/about">About</a>
-            </li>
-        </ul>
-        <h3 class="text-muted">Remdi</h3>
-        </div>--> <!--     <div class="navbar navbar-default navbar-fixed-top" role="navigation">--> <div class="navbar navbar-default navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Remedi</a> </div> <div class="navbar-collapse collapse"> <ul class="nav navbar-nav"> <li class="active"><a href="#">Home</a> </li> <li class=""><a href="#/bookings">Bookingslist</a> </li> <li class=""><a href="#/about">Make booking</a> </li> <li><a ng-show="!currentUser" href="#/register">Register</a> </li> <li><a ng-show="!currentUser" href="#/forgetPassword">Forget Password</a> </li> <li><a ng-show="!currentUser" href="#/login">Login</a> </li> <li ng-show="currentUser"><a href="#/secure/userProfile">Login:{{currentUser}}</a></li> </ul> </div> <!--/.nav-collapse --> </div> </div> <div class="warpper"> <!--appending the view here--> <div ng-view=""></div> </div> <!-- <div class="footer">
-            <p class="container">
-                <span class="glyphicon glyphicon-heart"></span>
-            </p>
-        </div> --> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i, s, o, g, r, a, m) {
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand stetheeLogo" href="#">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li ng-class="getClass('/stethee')"><a href="#/stehee"> Stethee<span class="sr-only"></span></a>
+                        </li>
+                        <!-- <li ng-class="getClass('/story')"><a href="#/story">Our Story</a>
+                        </li> -->
+                        <li ng-class="getClass('/about')"><a href="#/about">About Us</a>
+                        </li>
+                        <li ng-class="getClass('/media')"><a href="#/media">Media Center</a>
+                        </li>
+                        <!-- <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a>
+                                </li>
+                                <li><a href="#">Another action</a>
+                                </li>
+                                <li><a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a>
+                                </li>
+                            </ul>
+                        </li> -->
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div ng-view="" class="core"></div>
+        <div class="row">
+            <div class="breakline bg_green"></div>
+        </div>
+        <div class="row">
+            <div class="footer">
+                <div class="container">
+                    <div class="col-lg-4 ">
+
+                        <div class="row socials">
+                            <a class='fa fa-2x fa-facebook' href="https://www.facebook.com/pages/Stethee/639788469472826"></a>
+                            <a href="www.youtube.com" class='fa fa-2x fa-youtube'></a>
+
+                            <a href="https://twitter.com/Stethee" data-show-count="false">
+                                <div class='fa fa-2x fa-twitter'></div>
+                            </a>
+                            <a href="http://www.vimeo.com/112367169" class='fa fa-2x  fa-vimeo-square'></a>
+                        </div>
+                        <a class="stetheeDarkLogo" href="#">
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-lg-4">
+                        <div class="footernav">
+                            <!--LINKS TO socila site-->
+                            <!--Twitter share account-->
+                            <li>
+                                <a href="https://twitter.com/intent/tweet?button_hashtag=heartbeat&text=A%20heartbeat%20in%20your%20hand!" class="twitter-hashtag-button" data-related="Stethee" data-url="http://www.Stethee.com">Tweet #heartbeat</a>
+                            </li>
+                            <li>
+                                <script type="IN/Share" data-url="www.stethee.com" data-counter="right"></script>
+                            </li>
+                            <!-- <li>
+                                <div class="g-plus" data-action="share" data-annotation="bubble"></div>
+                            </li> -->
+                            <li>
+                                <div class="fb-like" data-href="https://www.facebook.com/pages/Stethee/639788469472826" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+                            </li>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footernav" style="padding-top:40px">
+                        <li><a href="#/stethee"> Stethee</a>
+                        </li>
+                        <li><a href="#/about">About Us</a>
+                        </li>
+                        <li><a href="#/media">Media center</a>
+                        </li>
+                    </div>
+                    <div class="copyright pull-right">
+                        <div class="col-lg-12">
+                            © 2014 Medic8. | Brisbane, Australia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');
+    </script>
+    <script>
+    ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');
+    </script>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function() {
             (i[r].q = i[r].q || []).push(arguments)
         }, i[r].l = 1 * new Date();
         a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
+            m = s.getElementsByTagName(o)[0];
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');</script> <!--[if lt IE 9]>
-    <script src="scripts/oldieshim.a466b7b1.js"></script>
-    <![endif]--> <script src="scripts/vendor.fccf7e5a.js"></script> <script src="scripts/scripts.e5568b1f.js"></script>  
+    ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/gsap/src/uncompressed/TweenMax.js"></script>
+    <script src="bower_components/ScrollMagic/js/jquery.scrollmagic.js"></script>
+    <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+    <script src="bower_components/shifty/dist/shifty.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/rekapi/dist/rekapi.min.js"></script>
+    <script src="bower_components/spark-scroll/src/spark-scroll.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
+    <script src="bower_components/ng-parallax/angular-parallax.min.js"></script>
+    <script src="bower_components/angular-socialshare/angular-socialshare.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/indexcontroller.js"></script>
+    <script src="scripts/controllers/stethee.js"></script>
+    <script src="scripts/controllers/media.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

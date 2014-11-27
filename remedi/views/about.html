@@ -1,1 +1,34 @@
-<div class="container"> <div> </div> <form novalidate class="simple-form login_module"> <div class="col-md-6 col-sx-12"> <label>Speciality:</label> <input type="text" class="form-control" name="speciality" ng-model="appointment.speciality" required placeholder="Type in speciality"> <br> <label>Clinic:</label> <input type="text" class="form-control" name="clinic" ng-model="appointment.clinic" required placeholder="Type in clinic"> <br> <label>Provider:</label> <input type="text" class="form-control" name="provide" ng-model="appointment.provider" required placeholder="Type in provider"> <br> </div> <div class="col-md-6 col-sx-12"> <label ng-hide="time">Please pick a time</label> <label ng-show="time">Your appointment:</label><br><span class="confirm_date">{{time|date:'h:mma MM/dd/yyyy '}}</span> <datetimepicker required data-ng-model="time" on-set-time="onTimeSet"></datetimepicker> </div> <button class="btn btn-default" ng-click="book(appointment)">Book</button> </form> </div>
+<div class="row">
+    <div style="background-image:url('images/asset/collected/city.jpg');" class="container bg">
+        <div class="container">
+
+            <div class="blowup_small ste_white ">
+                <div class="col-lg-6 col-lg-offset-3 ">
+                    <h1>Medic8 Health PL</h1>
+                    <p>We've been involved in primary health care services in Australia, for over 10 years. Our team consists of medical doctors, nurses, biomedical engineers as well as software engineers! We have also received grants from the Australian Government Department of Health & Ageing to deliver innovative health solutions and software into health clinics in Australia.</p>
+                </div>
+            </div>
+            <h2 class="ste_white blowup_even">Brisbane, AUSTRALIA</h2>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="breakline bg_white"></div>
+    <div class="ourTeam" ng-class="c">
+        Our Team
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="pattern">
+        <div class="container">
+            <div ng-repeat="person in names" class="col-md-4 col-sm-6">
+                <div class="cardview " ng-class="person.color">
+                    <p class="name">{{person.name}}</p>
+                    <p class="pos">{{person.postion}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
