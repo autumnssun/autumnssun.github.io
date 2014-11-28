@@ -1,0 +1,56 @@
+$white:#fff;
+$showdowcolor:rgba(100, 100, 100, 0.5);
+
+$showdowcolor3:rgba(10, 10, 10, 0.5);
+@mixin shadow_1() {
+    $shadows: 0px 0px 4px 3px $showdowcolor;
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+@mixin shadow_2() {
+    $shadows: 0px 0px 3px 0px $showdowcolor;
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+@mixin textShadow($amount) {
+    $textshadows: 0px $amount $showdowcolor;
+    -moz-text-shadow: $textshadows;
+    -webkit-text-shadow: $textshadows;
+    text-shadow: $textshadows;
+    font-weight: 400;
+}
+@mixin shadow($amount) {
+    $shadows: 0px 2px $amount 0px $showdowcolor;
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+@mixin shadowdark($amount) {
+    $shadows: 0px 0px $amount 0px $showdowcolor3;
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+@mixin border_radius($amount) {
+    -webkit-border-radius: $amount;
+    -moz-border-radius: $amount;
+    border-radius: $amount;
+}
+@mixin cardview() {
+    @include shadow(5px);
+    @include border_radius(2px);
+    border: 1px soild $white;
+}
+@mixin circle() {
+    @include border_radius(50%);
+    overflow: hidden;
+}
+.cardview {
+    background-color: #fff;
+    margin-top: 30px;
+    min-height: 100px;
+    padding: 1em;
+    @include cardview();
+}
