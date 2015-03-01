@@ -1,55 +1,18 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/main.875ef557.css">  <body ng-app="kaseWebsiteApp"> <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <!-- Add your site or application content here --> <nav class="navbar navbar-default navbar-fixed-top"> <div class="container"> <!-- Brand and toggle get grouped for better mobile display --> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="logo" href="#/"></a> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav navbar-right"> <li> <a href="#/"> Design </a> </li> <li> <a href="#/"> Material </a> </li> <li> <a href="#/"> Customization </a> </li> <li> <a href="#/"> Pre-Order </a> </li> </ul> </div> <!-- /.navbar-collapse --> </div> <!-- /.container-fluid --> </nav> <div class="container-fluid nopadd"> <div ng-view=""></div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<style>
-@font-face {
-    font-family: 'ffont';
-    src: url('helve.otf');
-    /* IE9 Compat Modes */
-    
-    src: url('helve.otf'),
-    /* Safari, Android, iOS */
-}
-body {
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%), url('background.png');
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0))), url('background.png');
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%), url('background.png');
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%), url('background.png');
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%), url('background.png');
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%), url('background.png');
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    /*overflow: hidden;*/
-
-}
-.kase {
-    height: 100%;
-    text-align: center;
-    font-family: ffont;
-    color: #c0c0c0;
-    padding-top: 25%;
-    text-shadow: 1px 3px 4px #111;
-}
-h1 {
-    font-size: 3em;
-}
-.jumbotron {
-    background-color: transparent;
-}
-</style>
-
-<body>
-    <div class="container kase jumbotron">
-        <h1>MACAS</h1>
-        <h3>Coming in 2015</h3>
-    </div>
-</body>
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');</script> <!--[if lt IE 9]>
+    <script src="scripts/oldieshim.c17b592e.js"></script>
+    <![endif]--> <script src="scripts/vendor.8e345379.js"></script> <script src="scripts/scripts.0d99643c.js"></script>  
