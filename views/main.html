@@ -1,0 +1,63 @@
+<div class="jumbotron topPart"> <div class="container"> <div class="col-lg-2"> <img src="images/icon.png" class="cloudLogo pull-left"> </div> <div class="col-lg-10"> <h1>Hello,<br> Wellcome to Cloud9SMS</h1> <p>Cloud 9 SMS allow you to recived TXT message online</p> </div> </div> </div> <div class="container vid"> <div class="embed-responsive embed-responsive-16by9"> <iframe id="" class="embed-responsive-item" frameborder="0" src="https://www.youtube.com/embed/QrUg1xBcJFg?controls=0&showinfo=0&rel=0" allowfullscreen></iframe> </div> </div> <div class="jumbotron bottomPart"> <div class="container"> <div class="col-lg-6 col-lg-offset-3"> <h2>Try it out sending a text messge to one of our number:</h2> <i>(*)Standard SMS fee apply when you text. But it is free to read message</i> <h1>(+61) 450 702 402</h1> <div class="texts"> <div ng-repeat=" d in data" class="pack"> <h4>From: {{d.attributes.from}} <small class="sm">{{d.createdAt|date:'medium'}}</small></h4> <p class="bubble">{{d.attributes.txt}}</p> </div> </div> </div> </div> <style>.sm{
+      color: #C59DAD
+    }
+    .pack{
+      margin-bottom: 1.4em;
+    }
+    .bubble {
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        line-height: 1.4em;
+        color: #2C2E2F;
+        padding: 1em;
+        background: #FFFFFF;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+    
+    .bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 15px 15px 15px 0;
+        border-color: transparent #FFFFFF;
+        display: block;
+        width: 0;
+        z-index: 1;
+        left: -14px;
+        top: 10px;
+    }
+    
+    .navbar {
+        margin: 0;
+    }
+    
+    .texts {
+        margin-top: 3em;
+        background-color: #C57577;
+        padding: 2em;
+        border-radius: 5px;
+    }
+    
+    .topPart {
+        border-radius: 0px !important;
+        background-color: #CA5B0C;
+        margin: 0;
+    }
+    
+    .bottomPart {
+        border-radius: 0px !important;
+        background-color: #CA5A50;
+        margin: 0;
+    }
+    
+    .cloudLogo {
+        display: block;
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        max-width: 300px;
+    }</style></div>
