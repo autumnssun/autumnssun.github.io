@@ -1,0 +1,85 @@
+<div class="row"> <div class="story col-sm-6 col-sm-offset-3" style="margin-top:30px"> <div class="panel panel-default"> <div class="panel-heading"> <div class="user one pull-left"></div> <h2> Hello agent! Fluppy</h2> </div> <div class="panel-body" style="text-align:center"> <p> Earth animals are dying! As an advanced intelligent race!</p> <p>We must Regenerate these animal</p> </div> </div> </div> </div> <div class="row" style="text-align:center"> <div class="machineContainer"> <div id="machine{{m.col}}" ng-class="{'faa-flash animated fast':m.flashing}" ng-repeat="m in machine.modules" class="slotMachine"> <div class="slot" ng-repeat="r in game.animals"> <div class="wrap"><img class="img-responsive" ng-src="{{r.img}}"></div> </div> </div> </div> </div> <div class="row"> <div class="message" ng-show="!scrolling" style="text-align:center; color:white;font-size:1.4em"> {{ animalCreated}}{{game.animals[winingAnimal].name}} were created and sent to Earth </div> <div class="machineController"> <button type="button" aria-label="Left Align" ng-click="startRolling()" ng-disabled="scrolling" class="genbtn"> <img class="img-responsive" ng-src="images/btn.png"> </button> </div> </div> <!-- div class="huds">
+    <div ng-repeat="r in game.animals" class="hud col-sm-4">
+        <img ng-src="{{r.img}}">
+        <p class="status">{{r.status}}</p>
+        <p class="spiece">Spieces: {{r.name}}</p>
+        <p>Population: {{r.count}}</p>
+        <p>Target Population: {{r.goal}} </p>
+    </div>
+    </div> --> <!-- <pre>
+        {{ game.animals | json }}
+    </pre>
+    <pre>
+        {{ machine.modules | json }}
+    </pre> --> <div class="col-sm-4" ng-repeat="animal in game.animals"> <div class="panel panel-default" ng-class="{'faa-float animated fast':animal.flashing}"> <div class="panel-heading"> <h3 class="panel-title">{{animal.name}} <span class="pull-right" style="color:#FF353A"> {{animal.status}}</span></h3> </div> <div class="panel-body" style="max-height:300px"> <p style="font-size:1em">Re-populating progress:</p> <div class="col-sm-6"> <!-- {{ animal.img }} --> <img class="img-responsive" ng-src="{{animal.img}}"> </div> <div class="col-sm-6"> <div style="margin:0 auto" round-progress max="animal.goal" current="animal.count" color="#03FF18" bgcolor="#FFFFFF" radius="35" stroke="9" semi="false" rounded="false" clockwise="true" iterations="100" animation="easeInOutQuart"></div> <p style="font-size:0.8em">Current population: <span style="color:#00D30C;font-size:1.6em">{{animal.count}}</span></p> <p style="font-size:0.8em">Target population: <span style="color:#FF172A;font-size:1.6em">{{animal.goal}}</span></p> </div> </div> </div> </div> <!-- {{game}} {{machine}}
+ --> <style>.user
+{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-repeat: no-repeat; 
+    background-position: center center; // Center image in the circle
+    background-size: cover; // Make sure it covers the circle, as there is no bg repeat
+}
+
+
+.one
+{
+    background-image: url('images/profile.af628e95.jpg');
+}
+
+.genbtn{
+    background-color:transparent; 
+    border:none;
+    height: 150px;
+    width: 150px;
+}
+.ng-click-active{
+    shadow:none;
+        border:none;
+
+}
+.genbtn:active{
+    shadow:none;
+    border:none;
+}
+.story {
+    color: #BDFFF7;
+    height: 260px;
+    padding-bottom: 50px;
+}
+
+.anagennaoMachine {
+    font-size: 20px;
+}
+
+.machineController {
+    text-align: center;
+    padding:50px;
+}
+
+.anagennaoButton {
+    margin: 30px;
+}
+
+.slotMachine {
+    margin: 0 auto;
+    height: 150px;
+    padding: 0px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+.wrap {
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.slotMachine .slot {
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}</style>
