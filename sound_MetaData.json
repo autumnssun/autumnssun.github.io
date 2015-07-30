@@ -945,51 +945,51 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "37760",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "37920",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "38080",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "38240",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "38400",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "38560",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "38720",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "38880",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "39040",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "39200",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "39360",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "39520",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "39680",
@@ -1009,7 +1009,7 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "40320",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "40480",
@@ -2157,51 +2157,51 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "86240",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "86400",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "86560",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "86720",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "86880",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "87040",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "87200",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "87360",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "87520",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "87680",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "87840",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "88000",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "88160",
@@ -4461,47 +4461,47 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "178400",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "178560",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "178720",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "178880",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "179040",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "179200",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "179360",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "179520",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "179680",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "179840",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "180000",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "180160",
@@ -6545,27 +6545,27 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "261760",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "261920",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "262080",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "262240",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "262400",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "262560",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "262720",
@@ -6825,27 +6825,27 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "272960",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "273120",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "273280",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "273440",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "273600",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "273760",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "273920",
@@ -7077,19 +7077,19 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "283040",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "283200",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "283360",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "283520",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "283680",
@@ -7729,11 +7729,11 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "309120",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "309280",
-        "type": "murmur",
+        "type": "none",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "309440",
@@ -12461,47 +12461,47 @@
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "498400",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "498560",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "498720",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "498880",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "499040",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "499200",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "499360",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "499520",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "499680",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "499840",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "500000",
-        "type": "none",
+        "type": "murmur",
         "beatsPerMinute": "60"
     }, {
         "sampleNumber": "500160",
