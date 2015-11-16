@@ -6174,42 +6174,4 @@
     "recLocation/latitude":51.60649783724178,
     "use":1
   }
-  // {
-  //   "sample":"tfss-f2e39b35-a443-42a4-b799-ad9ad35df91a-Harefiled_P2 P2_recordTime.wav",
-  //   "soundQuality":60,
-  //   "hr":0,
-  //   "rr":0,
-  //   "sys":327,
-  //   "dia":286,
-  //   "s3":0,
-  //   "s4":0,
-  //   "sm":"Yes",
-  //   "dm":"Yes",
-  //   "altitiude":74.7611312866211,
-  //   "patient":2,
-  //   "url":"http://files.parsetfss.com/bdf20ba9-afe3-48c2-b583-58c1b50a2d57/tfss-f2e39b35-a443-42a4-b799-ad9ad35df91a-Harefiled_P2%20P2_recordTime.wav",
-  //   "objectId":"M7qUKvyhpP",
-  //   "recLocation/longitude":-0.4826539500370899,
-  //   "recLocation/latitude":51.60654340724425,
-  //   "use":1
-  // },
-  // {
-  //   "sample":"tfss-9fa7d9a0-13aa-465f-8433-07671d4252cc-Harefiled_P1 P1_recordTime.wav",
-  //   "soundQuality":90,
-  //   "hr":88,
-  //   "rr":19,
-  //   "sys":290,
-  //   "dia":390,
-  //   "s3":0,
-  //   "s4":0,
-  //   "sm":"Yes",
-  //   "dm":"Yes",
-  //   "altitiude":75.47775268554688,
-  //   "patient":1,
-  //   "url":"http://files.parsetfss.com/bdf20ba9-afe3-48c2-b583-58c1b50a2d57/tfss-9fa7d9a0-13aa-465f-8433-07671d4252cc-Harefiled_P1%20P1_recordTime.wav",
-  //   "objectId":"KIkA1jxUL4",
-  //   "recLocation/longitude":-0.4825187980910521,
-  //   "recLocation/latitude":51.60648336992038,
-  //   "use":1
-  // }
 ]
